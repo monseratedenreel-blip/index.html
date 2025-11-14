@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group Bibliography - Denreel, Stephanie, Carlene, Andrea, Godwyne</title>
+    <style>
+        .nav-container {
+            position: sticky;
+            top: 0;
+            background-color: white;
+            z-index: 100;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        
+        .nav-menu {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 15px 0;
+            margin: 0;
+        }
+        
+        .nav-item {
+            margin: 0 25px;
+        }
+        
+        .nav-link {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+            font-size: 16px;
+            padding: 8px 0;
+            position: relative;
+            transition: all 0.3s ease;
+        }
+        
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: 0;
+            left: 0;
+            background-color: #333;
+            transition: width 0.3s ease;
+        }
+        
+        .nav-link:hover {
+            color: #000;
+        }
+        
+        .nav-link:hover::after {
+            width: 100%;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #222;
+            margin: 20px;
+            animation: fadeIn 1.5s ease forwards;
+        }
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: translateY(20px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+
+        .member {
+            background-color: white;
+            padding: 15px;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            animation: slideUp 1s ease forwards;
+            opacity: 0;
+        }
+        @keyframes slideUp {
+            0% { opacity: 0; transform: translateY(30px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+        .member:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+        }
+
+        img {
+            border-radius: 50%;
+            width: 180px;
+            height: 180px;
+            transition: transform 0.5s ease, box-shadow 0.5s ease;
+            animation: bounceIn 1.2s ease;
+        }
+        img:hover {
+            transform: scale(1.2) rotate(-2deg);
+            box-shadow: 0 0 20px rgba(0,0,0,0.4);
+        }
+        @keyframes bounceIn {
+            0% { transform: scale(0.3); opacity: 0; }
+            50% { transform: scale(1.1); opacity: 1; }
+            70% { transform: scale(0.9); }
+            100% { transform: scale(1); }
+        }
+
+        .marquee {
+            overflow: hidden;
+            position: relative;
+            background-color: #dfe6e9;
+            border-radius: 10px;
+            padding: 10px;
+        }
+        .marquee b {
+            display: inline-block;
+            position: absolute;
+            white-space: nowrap;
+            animation: marqueeAnim 10s linear infinite alternate;
+        }
+        @keyframes marqueeAnim {
+            0% { left: 0%; }
+            100% { left: 70%; }
+        }
+
+        figure {
+            transition: transform 0.3s ease;
+            display:inline-block; 
+            margin-top:10px; 
+            text-align:center;
+        }
+        figure:hover { transform: scale(1.05); }
+        figcaption {
+            font-size: 14px;
+            color: #2d3436;
+            margin-top: 5px;
+        }
+
+        h2 { color: #2d3436; }
+        hr { border: 1px solid #ccc; }
+        p { line-height: 1.5; }
+    </style>
+</head>
+
+<body>
+    <div class="nav-container">
+        <ul class="nav-menu">
+            <li class="nav-item">
+                <a href="Home.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="movie.html" class="nav-link">Movie</a>
+            </li>
+            <li class="nav-item">
+                <a href="dreamjob.html" class="nav-link">Dream Job</a>
+            </li>
+        </ul>
+    </div>
+
+    <marquee behavior="alternate" scrollamount="6">
+        <b>THE POWER PUFF GIRLS AND THE TWO DWARFS! </b>
+    </marquee>
+
+    <h1 style="text-align:center; color:#6c5ce7;">Group Members</h1>
+    <hr>
+
+    <div class="member" style="background-color:#ffeaa7;">
+        <h2>Denreel Monserate</h2>
+        <p><b>Age:</b> 17 years old</p>
+        <p><b>Birthday:</b> July 16, 2008</p>
+        <p><b>Address:</b> Carmen, CDOC</p>
+        <p><b>Hobbies:</b> Playing guitar and sleeping</p>
+	<figure style="display:inline-block; margin-top:10px; text-align:center;">
+        <img src="C:\Users\axagi\Downloads\download.jpg" 
+             alt="Playing guitar and sleeping" 
+             width="250" height="160" 
+             style="border-radius:15px; animation:bounceIn 1.2s ease;">
+        <figcaption>Playing guitar and sleeping</figcaption>
+    </figure>
+
+        <p><b>Skills:</b> Can fix and build small devices</p>
+        <p><b>Fun Fact:</b> My hands are double jointed; they can bend weirdly.</p>
+        <p><b>Facebook:</b> 
+            <a href="https://www.facebook.com/share/1BL6wz67aK/?mibextid=wwXIfr" target="_blank">
+                Visit Facebook Profile
+            </a>
+ <img src="https://scontent.fmnl13-3.fna.fbcdn.net/v/t1.15752-9/552688845_1334580328288523_8013000672523041475_n.jpg?stp=dst-jpg_s2048x2048_tt6&amp;_nc_cat=101&amp;ccb=1-7&amp;_nc_sid=9f807c&amp;_nc_eui2=AeGr7rvud_IEBZiIFqAcJhlj2b8i21W4WrfZvyLbVbhat9IIbAmmTdGzZjZxHt-c49W6i1cRBXNftcoZq1pwFh8K&amp;_nc_ohc=3wRoBcX_lQkQ7kNvwFGLn64&amp;_nc_oc=AdkBEJ0tAjDe_eLiZTvBPi2Q-efsd3kWiyxc-8eU6jdtcq6AzJAOClcjGcyJ607fPwsFYmvs1jhWGWZ_v0DRFMyr&amp;_nc_zt=23&amp;_nc_ht=scontent.fmnl13-3.fna&amp;oh=03_Q7cD3wFPWIFkmj7Uri1ZezQZ4lt7ITRzF0VV7JAaj4mXH07JWQ&amp;oe=693EB258" alt="Denreel Monserate">
+    </div>
+
+    <!-- STEPHANIE KATE FABRIA -->
+    <div class="member" style="background-color:#fab1a0;">
+        <h2>Stephanie Kate M. Fabria</h2>
+        <p><b>Age:</b> 17 years old</p>
+        <p><b>Birthday:</b> March 29, 2008</p>
+        <p><b>Address:</b> Macanhan, Carmen</p>
+        <p><b>Email:</b> sfabria05870@liceo.edu.ph</p>
+        <p><b>Hobbies:</b> Badminton and Reading books</p>
+	  <figure style="display:inline-block; margin-top:10px; text-align:center;">
+        <img src="C:\Users\axagi\Downloads\download (1).jpg"
+             alt="Playing badminton"
+             width="250" height="160"
+             style="border-radius:15px; animation:bounceIn 1.2s ease;">
+        <figcaption>Playing badminton</figcaption>
+    </figure>
+
+    <!-- Second hobby -->
+    <figure style="display:inline-block; margin-top:10px; text-align:center;">
+        <img src="C:\Users\axagi\Downloads\download (2).jpg"
+             alt="Reading books"
+             width="200" height="140"
+             style="border-radius:15px; animation:bounceIn 1.2s ease;">
+        <figcaption>Reading books</figcaption>
+    </figure>
+	<p><b>Skills:</b> Typing</p>
+        <p><b>Fun Fact:</b> You can't see behind you without a mirror.</p>
+        <p><b>Motto:</b> "If you can dream it, you can do it."</p>
+        <p><b>Facebook:</b> 
+            <a href="https://www.facebook.com/share/1HhbRAoTP3/?mibextid=wwXIfr" target="_blank">
+                Visit Facebook Profile
+            </a>
+        </p>
+        <img src="https://scontent.fdvo2-2.fna.fbcdn.net/v/t1.15752-9/581934520_1543839196810773_2573701709190141143_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeHlnWgqRoovAvYbq4lDi5FZgJNnd_LopQWAk2d38uilBUfDK1t9QOhX_BdD_HWgqBwjlmKNTy9UHiPPQpT90zoD&_nc_ohc=Z2_CAxOCyUQQ7kNvwHtgCLz&_nc_oc=Adme18vPPWoya9j96QexhBR3KtA57PDUucibv0nEFUZpC70EGqSbu03MGfZANqc3Uj5QnLctjYQwej-lWUCJRZHT&_nc_zt=23&_nc_ht=scontent.fdvo2-2.fna&oh=03_Q7cD3wGtwXZOnueG1cKq_MLo2xuCljWXs7Xb3WzRPsTguhJdLQ&oe=693EB6C0" alt="Stephanie Fabria">
+    </div>
+
+    <!-- CARLENE PEARL GENETIANO -->
+    <div class="member" style="background-color:#a29bfe;">
+        <h2>Carlene Pearl B. Genetiano</h2>
+        <p><b>Age:</b> 17 years old</p>
+        <p><b>Birthday:</b> October 3, 2008</p>
+        <p><b>Contact Info:</b> cpgenetiano19523@liceo.edu.ph</p>
+        <p><b>Hobbies:</b> Singing, listening to music, and solving puzzles</p>
+	 <figure style="display:inline-block; margin-top:10px; text-align:center;">
+        <img src="C:\Users\axagi\Downloads\download (3).jpg" 
+             alt="Singing" 
+             width="250" height="160" 
+             style="border-radius:15px; animation:bounceIn 1.2s ease;">
+        <figcaption>Singing</figcaption>
+    </figure>
+
+    <!-- Second hobby -->
+    <figure style="display:inline-block; margin-top:10px; text-align:center;">
+        <img src="C:\Users\axagi\Downloads\images.jpg" 
+             alt="Listening to music" 
+             width="250" height="160" 
+             style="border-radius:15px; animation:bounceIn 1.2s ease;">
+        <figcaption>Listening to music</figcaption>
+    </figure>
+
+    <!-- Third hobby -->
+    <figure style="display:inline-block; margin-top:10px; text-align:center;">
+        <img src="C:\Users\axagi\Downloads\images (1).jpg" 
+             alt="Solving puzzles" 
+             width="250" height="160" 
+             style="border-radius:15px; animation:bounceIn 1.2s ease;">
+        <figcaption>Solving puzzles</figcaption>
+    </figure>
+
+	<p><b>Talents/Skills:</b> Singing</p>
+	<p><b>Fun Fact:</b> I still get super excited about things meant for kids like colorful candies and toy cooking sets!</p>
+        <p><b>Instagram:</b> 
+            <a href="https://www.instagram.com/caleenaa.a?igsh=cnhyYTQxM2RrMzc3" target="_blank">
+                Visit Instagram Profile
+            </a>
+        </p>
+          <img src="C:\Users\axagi\Downloads\61d22352-d5f7-4055-a5cc-b1cc28d0d130.jpg" alt="Carlene Pearl Genetiano">
+    </div>
+
+    <!-- ANDREA PAULA REYES -->
+    <div class="member" style="background-color:#81ecec;">
+        <h2>Andrea Paula Reyes</h2>
+        <p><b>Age:</b> 18 years old</p>
+        <p><b>Birthday:</b> November 1, 2007</p>
+        <p><b>Contact Info:</b> areyes41851@liceo.edu.ph</p>
+        <p><b>Hobbies:</b> Reading books, Makeup, and Listening to music while learning how to fry scream</p>
+         <!-- First hobby: reading books -->
+    <figure style="display:inline-block; margin-top:10px; text-align:center;">
+        <img src="C:\Users\axagi\Downloads\download (4).jpg" 
+             alt="Reading books" 
+             width="250" height="160" 
+             style="border-radius:15px; animation:bounceIn 1.2s ease;">
+        <figcaption>Reading books</figcaption>
+    </figure>
+
+    <!-- Second hobby: doing own makeup -->
+    <figure style="display:inline-block; margin-top:10px; text-align:center;">
+        <img src="C:\Users\axagi\Downloads\download (5).jpg" 
+             alt="Doing my own makeup" 
+             width="250" height="160" 
+             style="border-radius:15px; animation:bounceIn 1.2s ease;">
+        <figcaption>Doing my own makeup</figcaption>
+    </figure>
+
+    <!-- Third hobby: listening to music while learning how to fry scream -->
+    <figure style="display:inline-block; margin-top:10px; text-align:center;">
+        <img src="C:\Users\axagi\Downloads\download (6).jpg" 
+             alt="Listening to music while learning how to fry scream" 
+             width="250" height="160" 
+             style="border-radius:15px; animation:bounceIn 1.2s ease;">
+        <figcaption>Listening to music while learning how to fry scream</figcaption>
+    </figure>
+
+<p><b>Talents/Skills:</b> Painting</p>
+        <p><b>Interesting Facts:</b> I can be philosophical, broad-minded, visionary, introspective, and a deep thinker.</p>
+        <p><b>Instagram:</b> 
+            <a href="https://www.instagram.com/magnolia.kltz?igsh=MWZvcGJsbm9iZzc5NQ==" target="_blank">
+                Visit Instagram Profile
+            </a>
+        </p>
+         <img src="C:\Users\axagi\Downloads\5aefa025-5935-4fdf-9654-38d5bcccba15.jpg" alt="Andrea Paula Reyes">
+    </div>
+
+	<div class="member" style="background-color:#55efc4;">
+    <h2>Godwyne Bacor</h2>
+    <p><b>Age:</b> 17 years old</p>
+    <p><b>Birthday:</b> June 10, 2008</p>
+    <p><b>Address:</b> Bulua, Cagayan de Oro City</p>
+    <p><b>Hobbies:</b> Playing basketball and online games</p>
+    <!-- First hobby: playing basketball -->
+    <figure style="display:inline-block; margin-top:10px; text-align:center;">
+        <img src="C:\Users\axagi\Downloads\images (2).jpg" 
+             alt="Playing basketball" 
+             width="250" height="160" 
+             style="border-radius:15px; animation:bounceIn 1.2s ease;">
+        <figcaption>Playing basketball</figcaption>
+    </figure>
+
+    <!-- Second hobby: playing online games -->
+    <figure style="display:inline-block; margin-top:10px; text-align:center;">
+        <img src="C:\Users\axagi\Downloads\download (7).jpg" 
+             alt="Playing online games" 
+             width="250" height="160" 
+             style="border-radius:15px; animation:bounceIn 1.2s ease;">
+        <figcaption>Playing online games</figcaption>
+    </figure>
+
+	<p><b>Skills:</b> Have knowledge about basic electrical wiring</p>
+    <p><b>Fun Fact:</b> I can handle both technology and tools helping with house wiring while studying in senior high school.</p>
+    <p><b>Facebook:</b> 
+        <a href="https://www.facebook.com/gawyne.bacs" target="_blank">
+            Visit Facebook Profile
+	
+        </a>
+    </p>
+	<img src="blob:https://www.messenger.com/74ecd8cc-2e76-488d-85d4-4b1f20b8d80f" alt="Godwyne Bacor">
+</div>
+
+    <hr>
+    <p style="text-align:center; color:#636e72;">
+        © 2025 Group Bibliography Project - HTML Lesson 1
+    </p>
+
+</body>
+</html>
