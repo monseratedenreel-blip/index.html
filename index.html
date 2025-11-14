@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Group Movie Recommendations</title>
+    <title>Group Bibliography - Denreel, Stephanie, Carlene, Andrea, Godwyne</title>
     <style>
         .nav-container {
             position: sticky;
@@ -82,8 +82,26 @@
             100% { opacity: 1; transform: translateY(0); }
         }
         .member:hover {
-            transform: scale(1.02);
+            transform: scale(1.05);
             box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+        }
+
+        img {
+            border-radius: 50%;
+            width: 180px;
+            height: 180px;
+            transition: transform 0.5s ease, box-shadow 0.5s ease;
+            animation: bounceIn 1.2s ease;
+        }
+        img:hover {
+            transform: scale(1.2) rotate(-2deg);
+            box-shadow: 0 0 20px rgba(0,0,0,0.4);
+        }
+        @keyframes bounceIn {
+            0% { transform: scale(0.3); opacity: 0; }
+            50% { transform: scale(1.1); opacity: 1; }
+            70% { transform: scale(0.9); }
+            100% { transform: scale(1); }
         }
 
         .marquee {
@@ -104,52 +122,30 @@
             100% { left: 70%; }
         }
 
-        h2 { 
-            color: #2d3436; 
-            margin-top: 0;
+        figure {
+            transition: transform 0.3s ease;
+            display:inline-block; 
+            margin-top:10px; 
+            text-align:center;
         }
+        figure:hover { transform: scale(1.05); }
+        figcaption {
+            font-size: 14px;
+            color: #2d3436;
+            margin-top: 5px;
+        }
+
+        h2 { color: #2d3436; }
         hr { border: 1px solid #ccc; }
         p { line-height: 1.5; }
-        
-        .video-container {
-            position: relative;
-            width: 100%;
-            height: 0;
-            padding-bottom: 56.25%; /* 16:9 aspect ratio */
-            margin: 15px 0;
-            border-radius: 10px;
-            overflow: hidden;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-        }
-        
-        .video-container iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            border: none;
-        }
-        
-        .explanation {
-            background-color: #f8f9fa;
-            padding: 15px;
-            border-radius: 10px;
-            margin-top: 15px;
-        }
-        
-        .movie-title {
-            color: #6c5ce7;
-            font-size: 1.3em;
-            margin-bottom: 5px;
-        }
     </style>
 </head>
+
 <body>
     <div class="nav-container">
         <ul class="nav-menu">
             <li class="nav-item">
-                <a href="home.html" class="nav-link">Home</a>
+                <a href="Home.html" class="nav-link">Home</a>
             </li>
             <li class="nav-item">
                 <a href="movie.html" class="nav-link">My Fav Movie</a>
@@ -164,89 +160,193 @@
         <b>THE POWER PUFF GIRLS AND THE TWO DWARFS! </b>
     </marquee>
 
-    <h1 style="text-align:center; color:#6c5ce7;"> Our Favorate Movie </h1>
+    <h1 style="text-align:center; color:#6c5ce7;">Group Members</h1>
     <hr>
 
     <div class="member" style="background-color:#ffeaa7;">
         <h2>Denreel Monserate</h2>
-        <div class="movie-title">Bridge to Terabithia</div>
-        <div class="video-container">
-            <iframe src="https://www.youtube.com/embed/T2TDSEG57hI?si=nzBQCZ7_BeitHok_"
-                    title="Bridge to Terabithia Trailer" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                    allowfullscreen>
-            </iframe>
-        </div>
-        <div class="explanation">
-            <p><b> I like Bridge to Terabithia </b> because it shows how special friendship can be. Jesse and Leslie’s friendship is really inspiring they help each other feel brave and happy. I also like the magical world they create because it’s fun to imagine adventures. The movie teaches important lessons about being kind, facing hard times, and how imagination can make life better. It’s a movie that feels both fun and touching.</p>
-        </div>
+        <p><b>Age:</b> 17 years old</p>
+        <p><b>Birthday:</b> July 16, 2008</p>
+        <p><b>Address:</b> Carmen, CDOC</p>
+        <p><b>Hobbies:</b> Playing guitar and sleeping</p>
+	<figure style="display:inline-block; margin-top:10px; text-align:center;">
+        <img src="https://images.pexels.com/photos/6722750/pexels-photo-6722750.jpeg" 
+             alt="Playing guitar and sleeping" 
+             width="250" height="160" 
+             style="border-radius:15px; animation:bounceIn 1.2s ease;">
+        <figcaption>Playing guitar and sleeping</figcaption>
+    </figure>
+
+        <p><b>Skills:</b> Can fix and build small devices</p>
+        <p><b>Fun Fact:</b> My hands are double jointed; they can bend weirdly.</p>
+        <p><b>Facebook:</b> 
+            <a href="https://www.facebook.com/share/1BL6wz67aK/?mibextid=wwXIfr" target="_blank">
+                Visit Facebook Profile
+            </a>
+ <img src="https://scontent.fmnl13-3.fna.fbcdn.net/v/t1.15752-9/552688845_1334580328288523_8013000672523041475_n.jpg?stp=dst-jpg_s2048x2048_tt6&amp;_nc_cat=101&amp;ccb=1-7&amp;_nc_sid=9f807c&amp;_nc_eui2=AeGr7rvud_IEBZiIFqAcJhlj2b8i21W4WrfZvyLbVbhat9IIbAmmTdGzZjZxHt-c49W6i1cRBXNftcoZq1pwFh8K&amp;_nc_ohc=3wRoBcX_lQkQ7kNvwFGLn64&amp;_nc_oc=AdkBEJ0tAjDe_eLiZTvBPi2Q-efsd3kWiyxc-8eU6jdtcq6AzJAOClcjGcyJ607fPwsFYmvs1jhWGWZ_v0DRFMyr&amp;_nc_zt=23&amp;_nc_ht=scontent.fmnl13-3.fna&amp;oh=03_Q7cD3wFPWIFkmj7Uri1ZezQZ4lt7ITRzF0VV7JAaj4mXH07JWQ&amp;oe=693EB258" alt="Denreel Monserate">
     </div>
 
+    <!-- STEPHANIE KATE FABRIA -->
     <div class="member" style="background-color:#fab1a0;">
         <h2>Stephanie Kate M. Fabria</h2>
-        <div class="movie-title">Coco</div>
-        <div class="video-container">
-                    <iframe src="https://www.youtube.com/embed/Rvr68u6k5sI?si=ioQhy7qTjkX7Hnkj" 
-                    title="Coco Trailer" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                    allowfullscreen>
-            </iframe>
-        </div>
-        <div class="explanation">
-            <p><b>Coco is my favorite movie because it beautifully tells a story about family, dreams, and remembering the people we love. The movie follows Miguel, a young boy who dreams of becoming a musician even though his family strictly forbids music. The story becomes magical when Miguel enters the Land of the Dead and learns the real meaning of family and legacy.</p>
-            <p>Watching Coco makes me appreciate my loved ones more, and it inspires me to keep pursuing my passions while staying connected to the people who support me.</p>
-        </div>
+        <p><b>Age:</b> 17 years old</p>
+        <p><b>Birthday:</b> March 29, 2008</p>
+        <p><b>Address:</b> Macanhan, Carmen</p>
+        <p><b>Email:</b> sfabria05870@liceo.edu.ph</p>
+        <p><b>Hobbies:</b> Badminton and Reading books</p>
+	  <figure style="display:inline-block; margin-top:10px; text-align:center;">
+        <img src="https://www.ukgymequipment.com/blog/wp-content/uploads/2021/05/shutterstock_1397753369-700x467.jpg"
+             alt="Playing badminton"
+             width="250" height="160"
+             style="border-radius:15px; animation:bounceIn 1.2s ease;">
+        <figcaption>Playing badminton</figcaption>
+    </figure>
+
+    <!-- Second hobby -->
+    <figure style="display:inline-block; margin-top:10px; text-align:center;">
+        <img src="https://wearerestless.org/wp-content/uploads/2021/02/Reading-scaled.jpg"
+             alt="Reading books"
+             width="200" height="140"
+             style="border-radius:15px; animation:bounceIn 1.2s ease;">
+        <figcaption>Reading books</figcaption>
+    </figure>
+	<p><b>Skills:</b> Typing</p>
+        <p><b>Fun Fact:</b> You can't see behind you without a mirror.</p>
+        <p><b>Motto:</b> "If you can dream it, you can do it."</p>
+        <p><b>Facebook:</b> 
+            <a href="https://www.facebook.com/share/1HhbRAoTP3/?mibextid=wwXIfr" target="_blank">
+                Visit Facebook Profile
+            </a>
+        </p>
+        <img src="https://scontent.fdvo2-2.fna.fbcdn.net/v/t1.15752-9/581934520_1543839196810773_2573701709190141143_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeHlnWgqRoovAvYbq4lDi5FZgJNnd_LopQWAk2d38uilBUfDK1t9QOhX_BdD_HWgqBwjlmKNTy9UHiPPQpT90zoD&_nc_ohc=Z2_CAxOCyUQQ7kNvwHtgCLz&_nc_oc=Adme18vPPWoya9j96QexhBR3KtA57PDUucibv0nEFUZpC70EGqSbu03MGfZANqc3Uj5QnLctjYQwej-lWUCJRZHT&_nc_zt=23&_nc_ht=scontent.fdvo2-2.fna&oh=03_Q7cD3wGtwXZOnueG1cKq_MLo2xuCljWXs7Xb3WzRPsTguhJdLQ&oe=693EB6C0" alt="Stephanie Fabria">
     </div>
 
+    <!-- CARLENE PEARL GENETIANO -->
     <div class="member" style="background-color:#a29bfe;">
         <h2>Carlene Pearl B. Genetiano</h2>
-        <div class="movie-title">Must be Love</div>
-        <div class="video-container">
-            <iframe src="https://www.youtube.com/embed/Hp0JJNursT4?si=b6yjA1HgGzL0OdTJ" 
-                    title="Must be Love Trailer" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                    allowfullscreen>
-            </iframe>
-        </div>
-        <div class="explanation">
-            </b> This is my favorite movie because it reminds me so much of my childhood. I used to watch it when I was still a kid, and even now that I’m a teenager, I still watch it. My mom is a big fan of KathNiel, and I eventually became a fan too.</p>
-        </div>
+        <p><b>Age:</b> 17 years old</p>
+        <p><b>Birthday:</b> October 3, 2008</p>
+        <p><b>Contact Info:</b> cpgenetiano19523@liceo.edu.ph</p>
+        <p><b>Hobbies:</b> Singing, listening to music, and solving puzzles</p>
+	 <figure style="display:inline-block; margin-top:10px; text-align:center;">
+        <img src="data:image/jpeg;base64,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" 
+             alt="Singing" 
+             width="250" height="160" 
+             style="border-radius:15px; animation:bounceIn 1.2s ease;">
+        <figcaption>Singing</figcaption>
+    </figure>
+
+    <!-- Second hobby -->
+    <figure style="display:inline-block; margin-top:10px; text-align:center;">
+        <img src="https://ggie.berkeley.edu/wp-content/uploads/2019/09/Listening_to_Music_Mindfully_1024x512.jpg" 
+             alt="Listening to music" 
+             width="250" height="160" 
+             style="border-radius:15px; animation:bounceIn 1.2s ease;">
+        <figcaption>Listening to music</figcaption>
+    </figure>
+
+    <!-- Third hobby -->
+    <figure style="display:inline-block; margin-top:10px; text-align:center;">
+        <img src="https://g5-assets-cld-res.cloudinary.com/image/upload/x_13,y_0,h_1295,w_2296,c_crop/q_auto,f_auto,fl_lossy,c_fill,g_center,h_406,w_720/v1616697630/g5/g5-c-iqa3e76t-brightwater-senior-living-group-client/g5-cl-57asxy7f4-corporate/services/GettyImages-1216529444_ulzyfa.jpg" 
+             alt="Solving puzzles" 
+             width="250" height="160" 
+             style="border-radius:15px; animation:bounceIn 1.2s ease;">
+        <figcaption>Solving puzzles</figcaption>
+    </figure>
+
+	<p><b>Talents/Skills:</b> Singing</p>
+	<p><b>Fun Fact:</b> I still get super excited about things meant for kids like colorful candies and toy cooking sets!</p>
+        <p><b>Instagram:</b> 
+            <a href="https://www.instagram.com/caleenaa.a?igsh=cnhyYTQxM2RrMzc3" target="_blank">
+                Visit Instagram Profile
+            </a>
+        </p>
+          <img src="https://scontent.fmnl13-4.fna.fbcdn.net/v/t1.15752-9/582408937_4241265132780090_6067807925323960480_n.jpg?stp=dst-jpg_s2048x2048_tt6&_nc_cat=109&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeG0dQLClUufJf4RLpo6iYa-sLQWhjMBZXWwtBaGMwFldYnAiJVjdWuNs6owRakCo7N_3oruFfOIAUWwYOcAfq51&_nc_ohc=hDSSGSOl0tQQ7kNvwH71feE&_nc_oc=AdlVKzWjKSk06dxCC1CbuiLaSHPgFwaeh2vRkpTm2X0glsYMzwSG_h8U5owka2YTI8mA8CwQA92fj0DPy8n_2DK3&_nc_zt=23&_nc_ht=scontent.fmnl13-4.fna&oh=03_Q7cD3wF38FI7tu-z_qQTPqy2sKophUHw3VmvkW2XP0bpyS7Sew&oe=693ED4FC" alt="Carlene Pearl Genetiano">
     </div>
 
+    <!-- ANDREA PAULA REYES -->
     <div class="member" style="background-color:#81ecec;">
         <h2>Andrea Paula Reyes</h2>
-        <div class="movie-title">Spider-Man: Into the Spider-Verse</div>
-        <div class="video-container">
-            <iframe src="https://www.youtube.com/embed/g4Hbz2jLxvQ?si=Rw-vCDrmHWOrA-Vm" 
-                    title="Spider-Man Into the Spider-Verse" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                    allowfullscreen>
-            </iframe>
-        </div>
-        <div class="explanation">
-            </b> I really like this movie because the animation style is so unique, and it feels like a comic book coming to life. The story also focuses on Miles Morales, who is just a regular teenager trying to figure out who he is. I relate to that part because sometimes I also feel unsure about my choices and what I want to do in life. The movie teaches that anyone can wear the mask, which to me means anyone can be a hero in their own way. The soundtrack is also really good and makes the scenes more exciting.
-</p>
-        </div>
+        <p><b>Age:</b> 18 years old</p>
+        <p><b>Birthday:</b> November 1, 2007</p>
+        <p><b>Contact Info:</b> areyes41851@liceo.edu.ph</p>
+        <p><b>Hobbies:</b> Reading books, Makeup, and Listening to music while learning how to fry scream</p>
+         <!-- First hobby: reading books -->
+    <figure style="display:inline-block; margin-top:10px; text-align:center;">
+        <img src="https://i0.wp.com/post.healthline.com/wp-content/uploads/2021/09/reading-book-1296x728-header.jpg?w=1155&h=1528" 
+             alt="Reading books" 
+             width="250" height="160" 
+             style="border-radius:15px; animation:bounceIn 1.2s ease;">
+        <figcaption>Reading books</figcaption>
+    </figure>
+
+    <!-- Second hobby: doing own makeup -->
+    <figure style="display:inline-block; margin-top:10px; text-align:center;">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvXGuDiMfpdF6j-ek2wyk5kK7WvDjqICTe8w&s" 
+             alt="Doing my own makeup" 
+             width="250" height="160" 
+             style="border-radius:15px; animation:bounceIn 1.2s ease;">
+        <figcaption>Doing my own makeup</figcaption>
+    </figure>
+
+    <!-- Third hobby: listening to music while learning how to fry scream -->
+    <figure style="display:inline-block; margin-top:10px; text-align:center;">
+        <img src="https://singinglessons.co/wp-content/uploads/2023/11/po-300x225.webp" 
+             alt="Listening to music while learning how to fry scream" 
+             width="250" height="160" 
+             style="border-radius:15px; animation:bounceIn 1.2s ease;">
+        <figcaption>Listening to music while learning how to fry scream</figcaption>
+    </figure>
+
+<p><b>Talents/Skills:</b> Painting</p>
+        <p><b>Interesting Facts:</b> I can be philosophical, broad-minded, visionary, introspective, and a deep thinker.</p>
+        <p><b>Instagram:</b> 
+            <a href="https://www.instagram.com/magnolia.kltz?igsh=MWZvcGJsbm9iZzc5NQ==" target="_blank">
+                Visit Instagram Profile
+            </a>
+        </p>
+         <img src="https://scontent.fmnl13-4.fna.fbcdn.net/v/t1.15752-9/581749878_716473740936466_5140888127777426415_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeFUwYVTj3kaBSxSmUuoFk2ChlFaPcbKHL2GUVo9xsocvVqa96TdNvhBCJl87BXE-qRWuxswA9j_QJO6jSzB6fGV&_nc_ohc=rRdR4i-0pMkQ7kNvwG5cNgB&_nc_oc=AdlxZ6oaJz8VCaiIUh9J9susBsKSva6w8VmBeo0dBFA1PBlIQ2qCaLK8f6JCiiLBDhrAXgGPsJzE_XBHY0MifJdC&_nc_zt=23&_nc_ht=scontent.fmnl13-4.fna&oh=03_Q7cD3wE3gM6L_HDZvb0ODF3MrKMinzUyE5fY-Q4P7Vx1Qyexbg&oe=693EE255" alt="Andrea Paula Reyes">
     </div>
 
-    <div class="member" style="background-color:#55efc4;">
-        <h2>Godwyne Bacor</h2>
-        <div class="movie-title">Avengers: Endgame</div>
-        <div class="video-container">
-            <iframe src="https://www.youtube.com/embed/TcMBFSGVi1c" 
-                    title="Avengers: Endgame Trailer" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                    allowfullscreen>
-            </iframe>
-        </div>
-        <div class="explanation">
-            <p>I like Avengers: Endgame because it has lots of action and my favorite superheroes working together to save the world. The movie is exciting and full of cool fights and amazing powers. It also shows how friends can be strong when they help each other, even when things are really hard. I like how the heroes never give up, and it teaches me about teamwork and bravery.</p>
-        </div>
-    </div>
+	<div class="member" style="background-color:#55efc4;">
+    <h2>Godwyne Bacor</h2>
+    <p><b>Age:</b> 17 years old</p>
+    <p><b>Birthday:</b> June 10, 2008</p>
+    <p><b>Address:</b> Bulua, Cagayan de Oro City</p>
+    <p><b>Hobbies:</b> Playing basketball and online games</p>
+    <!-- First hobby: playing basketball -->
+    <figure style="display:inline-block; margin-top:10px; text-align:center;">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhUdM4pTrME7k74w1H9QR_inlwSpzVod_hEg&s" 
+             alt="Playing basketball" 
+             width="250" height="160" 
+             style="border-radius:15px; animation:bounceIn 1.2s ease;">
+        <figcaption>Playing basketball</figcaption>
+    </figure>
+
+    <!-- Second hobby: playing online games -->
+    <figure style="display:inline-block; margin-top:10px; text-align:center;">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRdPBxFEx9DgXceNlOQhvGRzT6SJedtbe0IA&s" 
+             alt="Playing online games" 
+             width="250" height="160" 
+             style="border-radius:15px; animation:bounceIn 1.2s ease;">
+        <figcaption>Playing online games</figcaption>
+    </figure>
+
+	<p><b>Skills:</b> Have knowledge about basic electrical wiring</p>
+    <p><b>Fun Fact:</b> I can handle both technology and tools helping with house wiring while studying in senior high school.</p>
+    <p><b>Facebook:</b> 
+        <a href="https://www.facebook.com/gawyne.bacs" target="_blank">
+            Visit Facebook Profile
+	
+        </a>
+    </p>
+	<img src="blob:https://www.messenger.com/74ecd8cc-2e76-488d-85d4-4b1f20b8d80f" alt="Godwyne Bacor">
+</div>
 
     <hr>
     <p style="text-align:center; color:#636e72;">
-        © 2025 Group Movie Recommendations - HTML Lesson 1
+        © 2025 Group Bibliography Project - HTML Lesson 1
     </p>
+
 </body>
 </html>
