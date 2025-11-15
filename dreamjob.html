@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<hmml Lang="'en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Dream Job</title>
+    <style>
+        .nav-container {
+            position: sticky;
+            top: 0;
+            background-color: white;
+            z-index: 100;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        
+        .nav-menu {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 15px 0;
+            margin: 0;
+        }
+        
+        .nav-item {
+            margin: 0 25px;
+        }
+        
+        .nav-link {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+            font-size: 16px;
+            padding: 8px 0;
+            position: relative;
+            transition: all 0.3s ease;
+        }
+        
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: 0;
+            left: 0;
+            background-color: #333;
+            transition: width 0.3s ease;
+        }
+        
+        .nav-link:hover {
+            color: #000;
+        }
+        
+        .nav-link:hover::after {
+            width: 100%;
+        }
+                
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #222;
+            margin: 20px;
+            animation: fadeIn 1.5s ease forwards;
+        }
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: translateY(20px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+
+        .member {
+            background-color: white;
+            padding: 15px;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            animation: slideUp 1s ease forwards;
+            opacity: 0;
+        }
+        @keyframes slideUp {
+            0% { opacity: 0; transform: translateY(30px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+        .member:hover {
+            transform: scale(1.02);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+        }
+
+        .marquee {
+            overflow: hidden;
+            position: relative;
+            background-color: #dfe6e9;
+            border-radius: 10px;
+            padding: 10px;
+        }
+        .marquee b {
+            display: inline-block;
+            position: absolute;
+            white-space: nowrap;
+            animation: marqueeAnim 10s linear infinite alternate;
+        }
+        @keyframes marqueeAnim {
+            0% { left: 0%; }
+            100% { left: 70%; }
+        }
+
+        figure {
+            transition: transform 0.3s ease;
+            display:inline-block; 
+            margin-top:10px; 
+            text-align:center;
+        }
+        figure:hover { transform: scale(1.05); }
+        figcaption {
+            font-size: 14px;
+            color: #2d3436;
+            margin-top: 5px;
+        }
+
+        .explanation {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 10px;
+            margin-top: 15px;
+        }
+
+        h2 { 
+            color: #2d3436; 
+            margin-top: 0;
+        }
+        hr { border: 1px solid #ccc; }
+        p { line-height: 1.5; }
+    </style>
+</head>
+<body>
+ <div class="nav-container">
+        <ul class="nav-menu">
+            <li class="nav-item">
+                <a href="Home.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="movie.html" class="nav-link">My Fav Movie</a>
+            </li>
+            <li class="nav-item">
+                <a href="dreamjob.html" class="nav-link">My Dream Job</a>
+            </li>
+        </ul>
+    </div>
+
+    <marquee behavior="alternate" scrollamount="6">
+        <b>THE POWER PUFF GIRLS AND THE TWO DWARFS! </b>
+    </marquee>
+
+    <h1 style="text-align:center; color:#6c5ce7;">My Dream Job</h1>
+    <hr>
+
+    <div class="member" style="background-color:#ffeaa7;">
+        <h2>Denreel Monserate</h2>
+	<figure style="display:inline-block; margin-top:10px; text-align:left;">
+        <img src="https://scontent.fmnl13-3.fna.fbcdn.net/v/t1.15752-9/552688845_1334580328288523_8013000672523041475_n.jpg?stp=dst-jpg_s2048x2048_tt6&amp;_nc_cat=101&amp;ccb=1-7&amp;_nc_sid=9f807c&amp;_nc_eui2=AeGr7rvud_IEBZiIFqAcJhlj2b8i21W4WrfZvyLbVbhat9IIbAmmTdGzZjZxHt-c49W6i1cRBXNftcoZq1pwFh8K&amp;_nc_ohc=3wRoBcX_lQkQ7kNvwFGLn64&amp;_nc_oc=AdkBEJ0tAjDe_eLiZTvBPi2Q-efsd3kWiyxc-8eU6jdtcq6AzJAOClcjGcyJ607fPwsFYmvs1jhWGWZ_v0DRFMyr&amp;_nc_zt=23&amp;_nc_ht=scontent.fmnl13-3.fna&amp;oh=03_Q7cD3wFPWIFkmj7Uri1ZezQZ4lt7ITRzF0VV7JAaj4mXH07JWQ&amp;oe=693EB258" 
+             alt="Denreel Monserate" 
+             width="250" height="160" 
+             style="border-radius:15px; animation:bounceIn 1.2s ease;">
+    </figure>
+            <div class="explanation">
+        <h2><b>Software Engineer</b></h2>
+        <p><b>My dream job</b> is to be a software engineerI want to be a software engineer because I enjoy working with computers and solving problems. I like creating apps and websites, and it feels good when something I make finally works. I also want a job that has a lot of opportunities in the future, and technology keeps growing. Being a software engineer lets me be creative and learn new things all the time. Overall, it feels like the right path for me because I want to build things that can help people.</p>
+    </div>
+
+<figure style="display:inline-block; margin-top:10px; text-align:left;">
+        <img src="https://onlinecs.baylor.edu/sites/default/files/field/image/Future%20of%20Software_Engineering%20%281%29.jpg" 
+             alt="Denreel Monserate" 
+             width="250" height="160" 
+             style="border-radius:15px; animation:bounceIn 1.2s ease;">
+    </figure>
+    <figure style="display:inline-block; margin-top:10px; text-align:left;">
+        <img src="https://www.mtu.edu/cs/undergraduate/software/what/images/software-engineering-banner2400.jpg" 
+             alt="Denreel Monserate" 
+             width="250" height="160" 
+             style="border-radius:15px; animation:bounceIn 1.2s ease;">
+    </figure>
+ </div>
+
+    <div class="member" style="background-color:#fab1a0;">
+        <h2>Stephanie Kate M. Fabria</h2>
+	<figure style="display:inline-block; margin-top:10px; text-align:left;">
+        <img src="https://scontent.fdvo2-2.fna.fbcdn.net/v/t1.15752-9/581934520_1543839196810773_2573701709190141143_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeHlnWgqRoovAvYbq4lDi5FZgJNnd_LopQWAk2d38uilBUfDK1t9QOhX_BdD_HWgqBwjlmKNTy9UHiPPQpT90zoD&_nc_ohc=Z2_CAxOCyUQQ7kNvwHtgCLz&_nc_oc=Adme18vPPWoya9j96QexhBR3KtA57PDUucibv0nEFUZpC70EGqSbu03MGfZANqc3Uj5QnLctjYQwej-lWUCJRZHT&_nc_zt=23&_nc_ht=scontent.fdvo2-2.fna&oh=03_Q7cD3wGtwXZOnueG1cKq_MLo2xuCljWXs7Xb3WzRPsTguhJdLQ&oe=693EB6C0"
+                alt="Stephanie Kate M. Fabria"      
+             width="250" height="160" 
+             style="border-radius:15px; animation:bounceIn 1.2s ease;">
+    </figure>
+        <div class="explanation">
+        <h2><b>Chef</b></h2>
+        <p><b>My Dream Job:</b> Ever since I was young, I’ve always loved cooking and experimenting with food. Creating dishes feels like a form of art, and it’s something that truly makes me happy. Because of this passion, my dream job is to become a chef.</p>
+        <p><b>>Personal Reflection:</b> Becoming a chef is more than just a job for me it’s a dream. Cooking gives me joy, helps me express myself, and allows me to bring happiness to others. I know it’s a hard career, but I’m ready to work for it because it’s something I truly love.</p>
+    </div>
+<figure style="display:inline-block; margin-top:10px; text-align:left;">
+        <img src="https://www.totaljobs.com/advice/wp-content/uploads/Sous-Chef-job-description_5719402.jpg"
+          alt="Stephanie Kate M. Fabria"
+             width="250" height="160" 
+             style="border-radius:15px; animation:bounceIn 1.2s ease;">
+    </figure>
+    <figure style="display:inline-block; margin-top:10px; text-align:left;">
+        <img src="https://culinarylabschool.com/wp-content/uploads/2019/06/Pros-and-cons-to-working-in-culinary-arts-CulinaryLab-School.jpg"
+          alt="Stephanie Kate M. Fabria"
+             width="250" height="160" 
+             style="border-radius:15px; animation:bounceIn 1.2s ease;">
+    </figure>
+ </div>
+
+    <div class="member" style="background-color:#a29bfe;">
+        <h2>Carlene Pearl B. Genetiano</h2>
+	<figure style="display:inline-block; margin-top:10px; text-align:left;">
+          <img src="https://scontent.fmnl13-4.fna.fbcdn.net/v/t1.15752-9/582408937_4241265132780090_6067807925323960480_n.jpg?stp=dst-jpg_s2048x2048_tt6&_nc_cat=109&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeG0dQLClUufJf4RLpo6iYa-sLQWhjMBZXWwtBaGMwFldYnAiJVjdWuNs6owRakCo7N_3oruFfOIAUWwYOcAfq51&_nc_ohc=hDSSGSOl0tQQ7kNvwH71feE&_nc_oc=AdlVKzWjKSk06dxCC1CbuiLaSHPgFwaeh2vRkpTm2X0glsYMzwSG_h8U5owka2YTI8mA8CwQA92fj0DPy8n_2DK3&_nc_zt=23&_nc_ht=scontent.fmnl13-4.fna&oh=03_Q7cD3wF38FI7tu-z_qQTPqy2sKophUHw3VmvkW2XP0bpyS7Sew&oe=693ED4FC" alt="Carlene Pearl B. Genetiano"
+             width="250" height="160" 
+             style="border-radius:15px; animation:bounceIn 1.2s ease;">
+    </figure>
+        <div class="explanation">
+        <h2><b>Web Developer</b></h2>
+        <p><b>My Dream Job:</b> Being a web developer has always been my dream job because it feels like the perfect mix of creativity and problem-solving. I love the idea of taking an empty screen and turning it into something people can actually use and enjoy. When I look at setups like the one in the picture—multiple screens, lines of code, flowcharts, it makes me excited about the kind of work I want to do someday. It reminds me that web development isn’t just about typing code; it’s about building ideas, fixing things, and constantly learning new skills. I like the thought of creating websites or apps that could help someone or make their day easier. And even though it takes patience and a lot of practice, it feels worth it. Every small thing I learn now brings me a step closer to becoming the web developer I want to be.</p>
+        </div>
+<figure style="display:inline-block; margin-top:10px; text-align:left;">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzVt4UIQYRLsLOmn9OpFA62WXUD5UN32c0rQ&s" 
+                alt="Carlene Pearl B. Genetiano"
+             width="250" height="160" 
+             style="border-radius:15px; animation:bounceIn 1.2s ease;">
+             <figure style="display:inline-block; margin-top:10px; text-align:left;">
+        <img src="https://www.theforage.com/blog/wp-content/uploads/2022/09/what-is-a-web-developer.jpg"
+                alt="Carlene Pearl B. Genetiano"
+             width="250" height="160" 
+             style="border-radius:15px; animation:bounceIn 1.2s ease;">
+    </figure>
+ </div>
+
+    <div class="member" style="background-color:#81ecec;">
+        <h2>Andrea Paula Reyes</h2>
+<figure style="display:inline-block; margin-top:10px; text-align:left;">
+        <img src="https://scontent.fmnl13-4.fna.fbcdn.net/v/t1.15752-9/581749878_716473740936466_5140888127777426415_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeFUwYVTj3kaBSxSmUuoFk2ChlFaPcbKHL2GUVo9xsocvVqa96TdNvhBCJl87BXE-qRWuxswA9j_QJO6jSzB6fGV&_nc_ohc=rRdR4i-0pMkQ7kNvwG5cNgB&_nc_oc=AdlxZ6oaJz8VCaiIUh9J9susBsKSva6w8VmBeo0dBFA1PBlIQ2qCaLK8f6JCiiLBDhrAXgGPsJzE_XBHY0MifJdC&_nc_zt=23&_nc_ht=scontent.fmnl13-4.fna&oh=03_Q7cD3wE3gM6L_HDZvb0ODF3MrKMinzUyE5fY-Q4P7Vx1Qyexbg&oe=693EE255"
+                alt="Andrea Paula Reyes"    
+             width="250" height="160" 
+             style="border-radius:15px; animation:bounceIn 1.2s ease;">
+ 
+    </figure>
+        <div class="explanation">
+            <h2><b>Business Woman</b></h2>
+        <p><b>My dream job</b> My dream job is to become a businesswoman. If this were a webpage, I would add pictures of office settings, business meetings, successful women entrepreneurs, and maybe some charts or laptops to show the business world.
+
+I want to be a businesswoman because I like the idea of managing my own work and making important decisions. I want to build something that I can be proud of, like my own company or a business that helps people. I also find it inspiring how businesswomen stay confident, organized, and strong even when work gets challenging.
+
+<p><b>Personal Reflection:</b>Ithink this dream job fits me because I enjoy planning, leading, and thinking of new ideas. I like working with people and finding solutions when there are problems. I know being a businesswoman takes a lot of effort, patience, and responsibility, but I’m willing to learn those skills as I grow. In the future, I imagine myself running a successful business and inspiring others, especially young girls, to follow their dreams too.2. A page about my dream job, including images and a personal reflection.</p>
+
+    </div>
+<figure style="display:inline-block; margin-top:10px; text-align:left;">
+        <img src="https://images.presentationgo.com/2025/05/confident-businesswoman-presentation.jpg"
+             alt="Andrea Paula Reyes"   
+             width="250" height="160" 
+             style="border-radius:15px; animation:bounceIn 1.2s ease;">
+    </figure>
+    <figure style="display:inline-block; margin-top:10px; text-align:left;">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQstCsS5C4zTgLhA0Zq_0TrOV7uOC20NqndJg&s"
+             alt="Andrea Paula Reyes"   
+             width="250" height="160" 
+             style="border-radius:15px; animation:bounceIn 1.2s ease;">
+    </figure>
+ </div>
+
+	<div class="member" style="background-color:#55efc4;">
+    <h2>Godwyne Bacor</h2>
+	<figure style="display:inline-block; margin-top:10px; text-align:left;">
+        <img src="https://scontent.fcgy1-3.fna.fbcdn.net/v/t1.15752-9/582276125_1395220048784813_8421089568836548144_n.jpg?stp=dst-jpg_s2048x2048_tt6&_nc_cat=103&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeHQ6SEd5FXeqLYxhMBBh7dn58Hl67PzQ_fnweXrs_ND9xUK9DdnAzjecbsE8u6uHQKCGc6DKET3AHaEPUcyGU2E&_nc_ohc=GABVkiop6Y4Q7kNvwGDFwAw&_nc_oc=Adl-5FCu9ayIsCJmwEGzJfmT7SWNYAZUiwiC4b4XR3sgTmTLE4hOJ-Y7QEi3Plmcp2PDYJiqTj1I6psyUFsL7OF3&_nc_zt=23&_nc_ht=scontent.fcgy1-3.fna&oh=03_Q7cD3wEVzCEFpoRc1ioUFdSiJsf3mrUuhfFbD4wdk-cMiWKlLg&oe=693FE219" 
+             alt="Godwyne Bacor" 
+             width="250" height="160" 
+             style="border-radius:15px; animation:bounceIn 1.2s ease;">
+    </figure>
+        <div class="explanation">
+        <h2><b>Electrical Engineer</b></h2>
+        <p><b>My dream job:</b> I want to be an electrical engineer because I’m interested in how electricity and electronics work. I enjoy learning how devices, circuits, and machines are built and how they make our lives easier. I like solving problems and figuring out how to make things work better. Electrical engineering also has many opportunities in the future because technology keeps improving. I feel it’s the right path for me because I want to create and design things that can help people in everyday life.</p>
+    </div>
+<figure style="display:inline-block; margin-top:10px; text-align:left;">
+        <img src="https://auto.edu/hubfs/shutterstock_2463833399.jpg"
+             alt="Godwyne Bacor" 
+             width="250" height="160" 
+             style="border-radius:15px; animation:bounceIn 1.2s ease;">
+<figure style="display:inline-block; margin-top:10px; text-align:left;">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIrp2-26EmfoBVCfl4G2KwOuNatDuVQGUoxw&s"
+             alt="Godwyne Bacor"
+             width="250" height="160" 
+             style="border-radius:15px; animation:bounceIn 1.2s ease;">
+    </figure>
+    </figure>
+ </div>
+</body>
